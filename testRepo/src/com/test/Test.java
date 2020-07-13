@@ -1,7 +1,6 @@
 package com.test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Test {
 
@@ -12,8 +11,7 @@ public class Test {
 		String[] list = {"ramu","ramesh"};
         String[] checked = {"ramu"};
          
-        ArrayList<String> ar = new ArrayList<String>();
-        String[] newArray;  
+        ArrayList<String> ar = new ArrayList<String>(); 
         /*for(int i = 0; i < list.length; i++) {
              for(int j = 0; j < checked.length; j++){
             	  System.out.println("value checked::::"+list[i]);
@@ -26,7 +24,7 @@ public class Test {
             }  
              }
         }
-        
+        System.out.println("value checked::::");
         newArray=ar.toArray(new String[ar.size()]);
         System.out.println("string value:::"+ar.size());
         System.out.println("string value1111::"+newArray.length);*/
