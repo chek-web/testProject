@@ -24,7 +24,7 @@ public class Test {
             }  
              }
         }
-        
+        System.out.println("value checked::::");
         newArray=ar.toArray(new String[ar.size()]);
         System.out.println("string value:::"+ar.size());
         System.out.println("string value1111::"+newArray.length);*/
